@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-st.experimental_autorefresh(interval=1 * 60 * 60 * 1000) #refreshes data every hour 
+st.autorefresh(interval=1 * 60 * 60 * 1000) #refreshes data every hour 
 
 try:
     import streamlit as st
