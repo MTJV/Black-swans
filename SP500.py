@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-from st_autorefresh import st_autorefresh
+from st_autorefresh = st.autorefresh
 st_autorefresh(interval=1 * 60 * 60 * 1000) #refreshes data every hour 
 
 try:
